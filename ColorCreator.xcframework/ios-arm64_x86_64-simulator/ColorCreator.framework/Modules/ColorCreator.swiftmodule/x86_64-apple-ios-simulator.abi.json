@@ -1,0 +1,135 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ColorCreator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ColorCreator"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ColorCreator",
+        "printedName": "ColorCreator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRandomColor",
+            "printedName": "getRandomColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ColorCreatorAAV09getRandomA07SwiftUI0A0VyFZ",
+            "mangledName": "$s12ColorCreatorAAV09getRandomA07SwiftUI0A0VyFZ",
+            "moduleName": "ColorCreator",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12ColorCreatorAAV",
+        "mangledName": "$s12ColorCreatorAAV",
+        "moduleName": "ColorCreator",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ColorCreator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ColorCreator"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColorCreator",
+        "printedName": "UIColorCreator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRandomColor",
+            "printedName": "getRandomColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ColorCreator07UIColorB0V09getRandomA0So0C0CyFZ",
+            "mangledName": "$s12ColorCreator07UIColorB0V09getRandomA0So0C0CyFZ",
+            "moduleName": "ColorCreator",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12ColorCreator07UIColorB0V",
+        "mangledName": "$s12ColorCreator07UIColorB0V",
+        "moduleName": "ColorCreator",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ColorCreator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kedar\/Documents\/Projects\/DemoProjects\/Frameworks\/ColorCreator\/Framework_project\/ColorCreator\/ColorValueHelper.swift",
+      "kind": "Array",
+      "offset": 171,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

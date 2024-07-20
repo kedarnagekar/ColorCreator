@@ -1,0 +1,6 @@
+framework module ColorCreator {
+  umbrella header "ColorCreator.h"
+  export *
+
+  module * { export * }
+}
