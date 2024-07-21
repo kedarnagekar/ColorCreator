@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ColorCreator.xcframework"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Random color generator"
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "To get random color in SwiftUI try ColorCreator.getRandomColor(). For UIKit try UIColorCreator.getRandomColor()."
 
-  spec.homepage     = "https://github.com/kedarnagekar/ColorCreator/releases/tag/1.0.0"
+  spec.homepage     = "https://github.com/kedarnagekar/ColorCreator/releases/tag/1.0.1"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/kedarnagekar/ColorCreator.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/kedarnagekar/ColorCreator.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
