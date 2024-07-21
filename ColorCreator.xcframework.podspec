@@ -20,11 +20,13 @@ Pod::Spec.new do |spec|
   spec.summary      = "Random color generator"
 
   # This description is used to generate tags and improve search results.
-  #   * SwiftUI: ColorCreator.getRandomColor() -> To generator random color in SwiftUI
-  #   * UIKit: UIColorCreator.getRandomColor() -> To generator random color in UIKIt
+  #   * Think: What does it do? Why did you write it? What is the focus?
+  #   * Try to keep it short, snappy and to the point.
+  #   * Write the description between the DESC delimiters below.
+  #   * Finally, don't worry about the indent, CocoaPods strips it!
+  spec.description  = "To get random color in SwiftUI try ColorCreator.getRandomColor(). For UIKit try UIColorCreator.getRandomColor()."
 
-  spec.description  = "* SwiftUI: ColorCreator.getRandomColor() -> To generator random color in SwiftUI. * UIKit: UIColorCreator.getRandomColor() -> To generator random color in UIKIt"
-  spec.homepage     = "https://github.com/kedarnagekar/ColorCreator?tab=readme-ov-file"
+  spec.homepage     = "https://github.com/kedarnagekar/ColorCreator/releases/tag/1.0.0"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -35,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT License"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +54,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Kedar Nagekar" => "kedarnagekar@gmail.com" }
   # Or just: spec.author    = "Kedar Nagekar"
   # spec.authors            = { "Kedar Nagekar" => "kedarnagekar@gmail.com" }
-  # spec.social_media_url   = "https://www.linkedin.com/in/kedar619"
+  # spec.social_media_url   = "https://twitter.com/Kedar Nagekar"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,7 +66,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "17.5"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  # spec.ios.deployment_target = "17.5"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -88,8 +90,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "ColorCreator.swift"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
